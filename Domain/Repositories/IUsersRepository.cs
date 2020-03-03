@@ -6,7 +6,7 @@ using robotistan.Domain.Models.Queries;
 
 namespace robotistan.Domain.Repositories
 {
-    interface IUsersRepository
+    public interface IUsersRepository
     {
         Task<QueryResult<User>> ListAsync();
         Task AddAsync(User user);

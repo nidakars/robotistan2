@@ -10,9 +10,9 @@ namespace robotistan.Domain.Models
         public int Id { get; set; }
         
         
-        public decimal UrunFiyati { get; set; }
-        public decimal SepetToplamTutar { get; set; }
-        public string SiparisNo { get; set; }
+        public double UrunFiyati { get; set; }
+        public double SepetToplamTutar { get; set; }
+        public int SiparisNo { get; set; }
         public string SepetUser { get; set; }
         public DateTime SiparisTarihi { get; set; }
 

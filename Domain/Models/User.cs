@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,8 +18,8 @@ namespace robotistan.Domain.Models
         [DisplayName("E Mail Adresiniz")]
         public string Email { get; set; }
         [DisplayName("Şifre")]
-        public string Sifre { get; set; }
-        public string Telefon { get; set; }
+        public int Sifre { get; set; }
+        public long Telefon { get; set; }
         public DateTime EklenmeTarihi { get; set; }
 
 

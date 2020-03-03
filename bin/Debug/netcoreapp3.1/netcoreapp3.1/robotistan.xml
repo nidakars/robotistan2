@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>robotistan</name>
+    </assembly>
+    <members>
+        <member name="M:robotistan.Controllers.CategoriesController.ListAsync">
+            <summary>
+            Lists all categories.
+            </summary>
+            <returns>List os categories.</returns>
+        </member>
+        <member name="M:robotistan.Controllers.CategoriesController.PostAsync(robotistan.Resources.SaveCategoryResource)">
+            <summary>
+            Saves a new category.
+            </summary>
+            <param name="resource">Category data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:robotistan.Controllers.CategoriesController.PutAsync(System.Int32,robotistan.Resources.SaveCategoryResource)">
+            <summary>
+            Updates an existing category according to an identifier.
+            </summary>
+            <param name="id">Category identifier.</param>
+            <param name="resource">Updated category data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:robotistan.Controllers.CategoriesController.DeleteAsync(System.Int32)">
+            <summary>
+            Deletes a given category according to an identifier.
+            </summary>
+            <param name="id">Category identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:robotistan.Controllers.ProductsController.ListAsync(robotistan.Resources.ProductsQueryResource)">
+            <summary>
+            Lists all existing products.
+            </summary>
+            <returns>List of products.</returns>
+        </member>
+        <member name="M:robotistan.Controllers.ProductsController.PostAsync(robotistan.Resources.SaveProductResource)">
+            <summary>
+            Saves a new product.
+            </summary>
+            <param name="resource">Product data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:robotistan.Controllers.ProductsController.PutAsync(System.Int32,robotistan.Resources.SaveProductResource)">
+            <summary>
+            Updates an existing product according to an identifier.
+            </summary>
+            <param name="id">Product identifier.</param>
+            <param name="resource">Product data.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:robotistan.Controllers.ProductsController.DeleteAsync(System.Int32)">
+            <summary>
+            Deletes a given product according to an identifier.
+            </summary>
+            <param name="id">Product identifier.</param>
+            <returns>Response for the request.</returns>
+        </member>
+        <member name="M:robotistan.Domain.Services.Communication.CategoryResponse.#ctor(robotistan.Domain.Models.Category)">
+            <summary>
+            Creates a success response.
+            </summary>
+            <param name="category">Saved category.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:robotistan.Domain.Services.Communication.CategoryResponse.#ctor(System.String)">
+            <summary>
+            Creates am error response.
+            </summary>
+            <param name="message">Error message.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:robotistan.Domain.Services.Communication.SliderResponse.#ctor(robotistan.Domain.Models.Slider)">
+            <summary>
+            Creates a success response.
+            </summary>
+            <param name="slider">Saved slider.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:robotistan.Domain.Services.Communication.SliderResponse.#ctor(System.String)">
+            <summary>
+            Creates am error response.
+            </summary>
+            <param name="message">Error message.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:robotistan.Domain.Services.Communication.UserResponse.#ctor(robotistan.Domain.Models.User)">
+            <summary>
+            Creates a success response.
+            </summary>
+            <param name="user">Saved user.</param>
+            <returns>Response.</returns>
+        </member>
+        <member name="M:robotistan.Domain.Services.Communication.UserResponse.#ctor(System.String)">
+            <summary>
+            Creates am error response.
+            </summary>
+            <param name="message">Error message.</param>
+            <returns>Response.</returns>
+        </member>
+    </members>
+</doc>

@@ -5,7 +5,7 @@ using robotistan.Domain.Models.Queries;
 
 namespace robotistan.Domain.Repositories
 {
-    interface ISepetRepository
+    public interface ISepetRepository
     {
         Task<QueryResult<Sepet>> ListAsync(SepetQuery query);
         Task AddAsync(Sepet sepet);

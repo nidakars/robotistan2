@@ -4,7 +4,7 @@ namespace robotistan.Domain.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public float Fiyat { get; set; }
+        public double Fiyat { get; set; }
         public string Marka { get; set; }
         public string Aciklama { get; set; }
         public short QuantityInPackage { get; set; }

@@ -5,7 +5,7 @@ using robotistan.Domain.Models.Queries;
 
 namespace robotistan.Domain.Repositories
 {
-    interface ISiparisRepository
+    public interface ISiparisRepository
     {
         Task<QueryResult<Siparis>> ListAsync(SiparisQuery query);
         Task AddAsync(Siparis siparis);
@@ -14,4 +14,4 @@ namespace robotistan.Domain.Repositories
         void Remove(Siparis siparis);
     }
 }
-}
+

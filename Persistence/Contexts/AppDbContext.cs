@@ -47,7 +47,7 @@ namespace robotistan.Persistence.Contexts
 
 
 
-            builder.Entity<Product>().HasData
+            _ = builder.Entity<Product>().HasData
             (
                 new Product
                 {
@@ -146,15 +146,15 @@ namespace robotistan.Persistence.Contexts
             builder.Entity<Siparis>().Property(p => p.SepetToplamTutar).IsRequired();
             builder.Entity<Siparis>().Property(p => p.SiparisNo).IsRequired();
             builder.Entity<Siparis>().Property(p => p.SepetUser).IsRequired();
-            builder.Entity<Siparis>().HasData;
+            builder.Entity<Siparis>().HasData
             (
                  new Siparis
                  {
                      Id = 1,
-                     UrunFiyati = 15.82+15.66,
-                     SepetToplamTutar = 31.48,
+                     UrunFiyati = 15.82,
+                     SepetToplamTutar = 15.82,
                      SiparisNo = 1,
-                     FiyatSepetUser =1,
+                     SepetUser ="veliiii",
                      
                  },
                 new Siparis
@@ -163,14 +163,14 @@ namespace robotistan.Persistence.Contexts
                     UrunFiyati = 15.66,
                     SepetToplamTutar = 15.66,
                     SiparisNo = 2,
-                    FiyatSepetUser =2 ,
+                    SepetUser= "A.Ý.Varol",
                 }
              );
             builder.Entity<Slider>().ToTable("Slider");
             builder.Entity<Slider>().HasKey(p => p.Id);
             builder.Entity<Slider>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
             builder.Entity<Slider>().Property(p => p.SliderAciklama).IsRequired().HasMaxLength(30);
-            builder.Entity<Slider>().HasMany(p => p.Resim).IsRequired();
+            builder.Entity<Slider>().Property(p => p.Resim).IsRequired();
             builder.Entity<Slider>().Property(p => p.SliderLink).IsRequired();
 
             builder.Entity<Slider>().HasData
@@ -183,7 +183,7 @@ namespace robotistan.Persistence.Contexts
             builder.Entity<User>().HasKey(p => p.Id);
             builder.Entity<User>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
             builder.Entity<User>().Property(p => p.Adi).IsRequired().HasMaxLength(30);
-            builder.Entity<User>().HasMany(p => p.Soyadi).IsRequired();
+            builder.Entity<User>().Property(p => p.Soyadi).IsRequired();
             builder.Entity<User>().Property(p => p.KullaniciAdi).IsRequired();
             builder.Entity<User>().Property(p => p.Email).IsRequired();
             builder.Entity<User>().Property(p => p.Sifre).IsRequired();

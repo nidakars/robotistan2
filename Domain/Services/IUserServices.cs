@@ -7,7 +7,7 @@ using robotistan.Domain.Services.Communication;
 
 namespace robotistan.Domain.Services
 {
-    interface IUserServices
+    public interface IUserServices
     {
         Task<IEnumerable<User>> ListAsync();
         Task<UserResponse> SaveAsync(User user);
