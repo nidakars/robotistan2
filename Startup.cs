@@ -43,10 +43,18 @@ namespace robotistan
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IUsersRepository, UserRepository>();
+            services.AddScoped<ISliderRepository, SliderRepository>();
+            services.AddScoped<ISepetRepository, SepetRepository>();
+            services.AddScoped<ISiparisRepository, SiparisRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IUserServices, UserService>();
+            services.AddScoped<ISliderService, SliderService>();
+            services.AddScoped<ISiparisService, SiparisService>();
+            services.AddScoped<ISepetService, SepetService>();
 
             services.AddAutoMapper(typeof(Startup));
         }
