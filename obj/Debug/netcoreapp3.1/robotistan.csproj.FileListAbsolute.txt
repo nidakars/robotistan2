@@ -323,3 +323,8 @@ C:\Users\NK\Source\Repos\robotistan22\bin\Debug\netcoreapp3.1\netcoreapp3.1\Syst
 C:\Users\NK\Source\Repos\robotistan22\bin\Debug\netcoreapp3.1\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\NK\Source\Repos\robotistan22\bin\Debug\netcoreapp3.1\netcoreapp3.1\System.Web.Http.dll
 C:\Users\NK\Source\Repos\robotistan22\bin\Debug\netcoreapp3.1\netcoreapp3.1\System.Web.Http.WebHost.dll
+C:\Users\NK\source\repos\robotistan22\bin\Debug\netcoreapp3.1\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\NK\source\repos\robotistan22\bin\Debug\netcoreapp3.1\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\NK\source\repos\robotistan22\obj\Debug\netcoreapp3.1\robotistan.csproj.CoreCompileInputs.cache
+C:\Users\NK\source\repos\robotistan22\obj\Debug\netcoreapp3.1\robotistan.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NK\source\repos\robotistan22\obj\Debug\netcoreapp3.1\robotistan.MvcApplicationPartsAssemblyInfo.cache
