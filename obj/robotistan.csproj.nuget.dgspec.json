@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NK\\source\\repos\\robotistan22\\robotistan.csproj": {}
+    "C:\\Users\\NK\\Source\\Repos\\robotistan22\\robotistan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NK\\source\\repos\\robotistan22\\robotistan.csproj": {
+    "C:\\Users\\NK\\Source\\Repos\\robotistan22\\robotistan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NK\\source\\repos\\robotistan22\\robotistan.csproj",
+        "projectUniqueName": "C:\\Users\\NK\\Source\\Repos\\robotistan22\\robotistan.csproj",
         "projectName": "robotistan",
-        "projectPath": "C:\\Users\\NK\\source\\repos\\robotistan22\\robotistan.csproj",
+        "projectPath": "C:\\Users\\NK\\Source\\Repos\\robotistan22\\robotistan.csproj",
         "packagesPath": "C:\\Users\\NK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NK\\source\\repos\\robotistan22\\obj\\",
+        "outputPath": "C:\\Users\\NK\\Source\\Repos\\robotistan22\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
